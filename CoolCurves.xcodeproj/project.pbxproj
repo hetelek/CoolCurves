@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F396718C19B12A560035C72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F396718B19B12A560035C72F /* main.m */; };
+		F396718F19B12A560035C72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F396718E19B12A560035C72F /* AppDelegate.m */; };
+		F396719219B12A560035C72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F396719119B12A560035C72F /* ViewController.m */; };
+		F396719519B12A560035C72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F396719319B12A560035C72F /* Main.storyboard */; };
+		F396719719B12A560035C72F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F396719619B12A560035C72F /* Images.xcassets */; };
+		F39671A319B12A560035C72F /* CoolCurvesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39671A219B12A560035C72F /* CoolCurvesTests.m */; };
+		F39671AE19B12A750035C72F /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = F39671AD19B12A750035C72F /* Line.m */; };
+		F39671B119B12E490035C72F /* LineCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = F39671B019B12E490035C72F /* LineCanvas.m */; };
+		F39671B719B139260035C72F /* LineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F39671B619B139260035C72F /* LineManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F396719D19B12A560035C72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F396717E19B12A560035C72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F396718519B12A560035C72F;
+			remoteInfo = CoolCurves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F396718619B12A560035C72F /* CoolCurves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolCurves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F396718A19B12A560035C72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F396718B19B12A560035C72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F396718D19B12A560035C72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F396718E19B12A560035C72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F396719019B12A560035C72F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F396719119B12A560035C72F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F396719419B12A560035C72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F396719619B12A560035C72F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F396719C19B12A560035C72F /* CoolCurvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolCurvesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39671A119B12A560035C72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39671A219B12A560035C72F /* CoolCurvesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolCurvesTests.m; sourceTree = "<group>"; };
+		F39671AC19B12A750035C72F /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		F39671AD19B12A750035C72F /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		F39671AF19B12E490035C72F /* LineCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCanvas.h; sourceTree = "<group>"; };
+		F39671B019B12E490035C72F /* LineCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCanvas.m; sourceTree = "<group>"; };
+		F39671B519B139260035C72F /* LineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineManager.h; sourceTree = "<group>"; };
+		F39671B619B139260035C72F /* LineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F396718319B12A560035C72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396719919B12A560035C72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F396717D19B12A560035C72F = {
+			isa = PBXGroup;
+			children = (
+				F396718819B12A560035C72F /* CoolCurves */,
+				F396719F19B12A560035C72F /* CoolCurvesTests */,
+				F396718719B12A560035C72F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F396718719B12A560035C72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F396718619B12A560035C72F /* CoolCurves.app */,
+				F396719C19B12A560035C72F /* CoolCurvesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F396718819B12A560035C72F /* CoolCurves */ = {
+			isa = PBXGroup;
+			children = (
+				F396719319B12A560035C72F /* Main.storyboard */,
+				F39671BA19B278970035C72F /* Controller */,
+				F39671B819B278890035C72F /* Model */,
+				F39671B919B278910035C72F /* View */,
+				F396718919B12A560035C72F /* Supporting Files */,
+			);
+			path = CoolCurves;
+			sourceTree = "<group>";
+		};
+		F396718919B12A560035C72F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F396719619B12A560035C72F /* Images.xcassets */,
+				F396718A19B12A560035C72F /* Info.plist */,
+				F396718B19B12A560035C72F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F396719F19B12A560035C72F /* CoolCurvesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39671A219B12A560035C72F /* CoolCurvesTests.m */,
+				F39671A019B12A560035C72F /* Supporting Files */,
+			);
+			path = CoolCurvesTests;
+			sourceTree = "<group>";
+		};
+		F39671A019B12A560035C72F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39671A119B12A560035C72F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39671B819B278890035C72F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F396718D19B12A560035C72F /* AppDelegate.h */,
+				F396718E19B12A560035C72F /* AppDelegate.m */,
+				F39671AC19B12A750035C72F /* Line.h */,
+				F39671AD19B12A750035C72F /* Line.m */,
+				F39671B519B139260035C72F /* LineManager.h */,
+				F39671B619B139260035C72F /* LineManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F39671B919B278910035C72F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F39671AF19B12E490035C72F /* LineCanvas.h */,
+				F39671B019B12E490035C72F /* LineCanvas.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F39671BA19B278970035C72F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F396719019B12A560035C72F /* ViewController.h */,
+				F396719119B12A560035C72F /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F396718519B12A560035C72F /* CoolCurves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39671A619B12A560035C72F /* Build configuration list for PBXNativeTarget "CoolCurves" */;
+			buildPhases = (
+				F396718219B12A560035C72F /* Sources */,
+				F396718319B12A560035C72F /* Frameworks */,
+				F396718419B12A560035C72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolCurves;
+			productName = CoolCurves;
+			productReference = F396718619B12A560035C72F /* CoolCurves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F396719B19B12A560035C72F /* CoolCurvesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39671A919B12A560035C72F /* Build configuration list for PBXNativeTarget "CoolCurvesTests" */;
+			buildPhases = (
+				F396719819B12A560035C72F /* Sources */,
+				F396719919B12A560035C72F /* Frameworks */,
+				F396719A19B12A560035C72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F396719E19B12A560035C72F /* PBXTargetDependency */,
+			);
+			name = CoolCurvesTests;
+			productName = CoolCurvesTests;
+			productReference = F396719C19B12A560035C72F /* CoolCurvesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F396717E19B12A560035C72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Expetelek;
+				TargetAttributes = {
+					F396718519B12A560035C72F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F396719B19B12A560035C72F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F396718519B12A560035C72F;
+					};
+				};
+			};
+			buildConfigurationList = F396718119B12A560035C72F /* Build configuration list for PBXProject "CoolCurves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F396717D19B12A560035C72F;
+			productRefGroup = F396718719B12A560035C72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F396718519B12A560035C72F /* CoolCurves */,
+				F396719B19B12A560035C72F /* CoolCurvesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F396718419B12A560035C72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396719519B12A560035C72F /* Main.storyboard in Resources */,
+				F396719719B12A560035C72F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396719A19B12A560035C72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F396718219B12A560035C72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396719219B12A560035C72F /* ViewController.m in Sources */,
+				F39671AE19B12A750035C72F /* Line.m in Sources */,
+				F396718F19B12A560035C72F /* AppDelegate.m in Sources */,
+				F39671B119B12E490035C72F /* LineCanvas.m in Sources */,
+				F396718C19B12A560035C72F /* main.m in Sources */,
+				F39671B719B139260035C72F /* LineManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396719819B12A560035C72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39671A319B12A560035C72F /* CoolCurvesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F396719E19B12A560035C72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F396718519B12A560035C72F /* CoolCurves */;
+			targetProxy = F396719D19B12A560035C72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F396719319B12A560035C72F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396719419B12A560035C72F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39671A419B12A560035C72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39671A519B12A560035C72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39671A719B12A560035C72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CoolCurves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F39671A819B12A560035C72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CoolCurves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F39671AA19B12A560035C72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoolCurvesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolCurves.app/CoolCurves";
+			};
+			name = Debug;
+		};
+		F39671AB19B12A560035C72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoolCurvesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolCurves.app/CoolCurves";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F396718119B12A560035C72F /* Build configuration list for PBXProject "CoolCurves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39671A419B12A560035C72F /* Debug */,
+				F39671A519B12A560035C72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39671A619B12A560035C72F /* Build configuration list for PBXNativeTarget "CoolCurves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39671A719B12A560035C72F /* Debug */,
+				F39671A819B12A560035C72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F39671A919B12A560035C72F /* Build configuration list for PBXNativeTarget "CoolCurvesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39671AA19B12A560035C72F /* Debug */,
+				F39671AB19B12A560035C72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F396717E19B12A560035C72F /* Project object */;
+}

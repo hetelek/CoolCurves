@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyX-tU-SUD" customClass="LineCanvas">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3TR-wp-rLq">
+                                        <rect key="frame" x="70" y="542" width="460" height="31"/>
+                                        <connections>
+                                            <action selector="percentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Jt3-Zp-7QV"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWc-OA-WfR">
+                                        <rect key="frame" x="8" y="546" width="56" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hL5-1c-lm9">
+                                        <rect key="frame" x="534" y="542" width="58" height="30"/>
+                                        <state key="normal" title="Random">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="scrambleLines" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9Y-tB-j6t"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.81150112543299624" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3TR-wp-rLq" secondAttribute="bottom" constant="8" id="0lC-8D-4Wa"/>
+                                    <constraint firstItem="aWc-OA-WfR" firstAttribute="leading" secondItem="wyX-tU-SUD" secondAttribute="leading" constant="8" id="GCC-Kw-B1Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="hL5-1c-lm9" secondAttribute="trailing" constant="8" id="L5T-R7-aHT"/>
+                                    <constraint firstAttribute="bottom" secondItem="hL5-1c-lm9" secondAttribute="bottom" constant="8" id="Mnf-lI-4Pk"/>
+                                    <constraint firstItem="3TR-wp-rLq" firstAttribute="leading" secondItem="aWc-OA-WfR" secondAttribute="trailing" constant="8" id="bfL-so-dda"/>
+                                    <constraint firstItem="hL5-1c-lm9" firstAttribute="leading" secondItem="3TR-wp-rLq" secondAttribute="trailing" constant="6" id="gvX-1l-TFd"/>
+                                    <constraint firstAttribute="bottom" secondItem="aWc-OA-WfR" secondAttribute="bottom" constant="13" id="qRH-ak-NRF"/>
+                                    <constraint firstAttribute="centerX" secondItem="3TR-wp-rLq" secondAttribute="centerX" id="sVh-e0-OaI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="wyX-tU-SUD" secondAttribute="centerX" id="D0F-fS-61p"/>
+                            <constraint firstAttribute="centerY" secondItem="wyX-tU-SUD" secondAttribute="centerY" constant="-10" id="KWZ-8f-lxz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wyX-tU-SUD" secondAttribute="trailing" constant="-16" id="Mxv-BL-i8y"/>
+                            <constraint firstItem="wyX-tU-SUD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="k3Y-EU-feV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lineCanvas" destination="wyX-tU-SUD" id="NXz-j2-Ok3"/>
+                        <outlet property="percentLabel" destination="aWc-OA-WfR" id="E7t-at-ICt"/>
+                        <outlet property="percentSlider" destination="3TR-wp-rLq" id="ZQo-Te-qaH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
