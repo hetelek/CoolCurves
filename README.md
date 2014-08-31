@@ -6,5 +6,7 @@ CoolCurves demonstrates how parametric Bézier curves are constructed. The slide
 CoolCurves supports a (nearly) infinite amount of anchor points, allowing for very complex and intresting curves.
 
 ![Simple 1](http://i.imgur.com/TCf3vdG.png)
+
 ![Complex 1](http://i.imgur.com/HH5aXl5.png)
+
 ![Complex 2](http://i.imgur.com/wiVEhZW.png)
